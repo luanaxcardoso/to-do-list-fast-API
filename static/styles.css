@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+  }
+  body {
+    text-align: center;
+  }
+  table {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {
+    width: fit-content; /* Define a largura do título com base no conteúdo */
+    font-family: "Courier New", Courier, monospace;
+    margin: 0 auto; /* Centraliza o título horizontalmente */
+    font-size: 50px;
+  }
+ 
+    h1.navbar-brand {
+      font-family: "Honk", sans-serif;
+      font-size: 28px;
+      width: 100%; /* Garante que o título ocupe toda a largura */
+      text-align: center; /* Centraliza o texto dentro do título */
+    }
+  th,
+  td {
+    width: 250px;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "arial", sans-serif;
+  }
+  td:nth-child(2) {
+    text-align: center;
+  }
+  
+  
