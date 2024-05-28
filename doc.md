@@ -1,4 +1,4 @@
-Para executar o projeto, é necessário instalar as dependências do projeto. Para isso, execute o comando abaixo:
+Para executar o projeto, é necessário instalar as dependências:
 
 ```bash
 
@@ -11,4 +11,9 @@ pip install pydantic
 pip install python-multipart
 
 ```
-Desenvolvido por Nara Guimarães
+Para rodar o projeto, execute o comando abaixo:
+
+```bash
+uvicorn main:app --reload
+```
+

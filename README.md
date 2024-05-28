@@ -1,9 +1,17 @@
-### Desenvolvido por Nara Guimarães para o Bootcamp da WoMakers Code
-### Essa aplicação exemplifica como criar uma aplicação web de lista de tarefas usando o FastAPI, manipulando operações CRUD básicas (Criar, Ler, Atualizar, Excluir) em um arquivo JSON como banco de dados.
+## EAplicação Web de Lista de Tarefas com FastAPI
 
-https://github.com/luanaxcardoso/to-do-list-fast-API/assets/112970416/4027a52d-3d42-4592-9be8-bf7c81b0249b
+### Este projeto exemplifica como criar uma aplicação web de lista de tarefas usando FastAPI. Ele permite operações CRUD básicas (Criar, Ler, Atualizar, Excluir) em um arquivo JSON utilizado como banco de dados.
 
-### Para executar o projeto, é necessário instalar as dependências. Para isso, execute o comando abaixo:
+### Estrutura do Projeto
+* FastAPI: Framework web moderno e rápido.
+* Jinja2: Motor de templates para renderizar HTML.
+* Starlette: Toolkit ASGI que serve como base para FastAPI.
+* Pydantic: Validação de dados usando Python type hints.
+* Uvicorn: Servidor ASGI para rodar a aplicação FastAPI.
+* Python-multipart: Necessário para lidar com formulários.
+
+
+### Para executar o projeto, é necessário instalar as dependências:
 
 ```bash
 
@@ -15,4 +23,7 @@ pip install starlette
 pip install pydantic
 pip install python-multipart
 
+```
+```bash
+uvicorn main:app --reload
 ```
